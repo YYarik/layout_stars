@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.stars:not(:last-child) {
+  margin-bottom: 4px; /* Please check Figma for the exact value */
+}
+
 .stars__star {
   width: 16px;
   height: 16px;
